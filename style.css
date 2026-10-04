@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    min-height: 100vh;  
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    gap: 1em;
+   /*background-color: #ccc; */
+    border-radius: 0.5em;
+    padding: 10px 20px;
+}
+
+header {
+    flex: 0 0 50px;
+    background-color: #ccc;
+    border-radius: 1em;
+
+    display: flex;
+    justify-content: left; /*horizontal*/
+    align-items: center; /*vertical centering*/
+}
+
+nav a {
+    padding: 8px 12px;
+    margin: 20px;
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    border-radius: 0.4em;
+}
+
+nav a:hover {
+    background-color: azure;
+}
+
+section {
+   flex: 1;
+    display: flex;
+    border-radius: 1em;
+    gap: 2em;
+    /*prevent three columns from automatically stretching: */
+   /* align-items: flex-start;*/
+}
+
+.col-left {
+    flex: 1;
+    background-color: #ccc;
+    border-radius: 1em;
+}
+
+.col-mid {
+    flex: 2;
+    background-color: #ccc;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.col-right {
+    flex: 1;
+    background-color: #ccc;
+    border-radius: 1em;
+}
+
+.post {
+    background-color: white;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+footer {
+    flex: 0 0 40px;
+    border-radius: 1em;
+    background-color: cadetblue;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
