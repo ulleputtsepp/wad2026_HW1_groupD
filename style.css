@@ -84,3 +84,101 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+/* addPost.html */
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2em 0;
+}
+
+.post-form {
+    background-color: #ddd;
+    border-radius: 1em;
+    padding: 1.5em;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.post-form > .field {
+    display: flex;
+    gap: 1em;
+    align-items: flex-start;
+}
+
+.post-form label {
+    flex: 0 0 80px;
+    text-align: right;
+    padding-top: 0.3em;
+}
+
+.post-form label + textarea,
+.post-form label + input {
+    flex: 1;
+    min-width: 0;
+}
+
+.post-form textarea {
+    min-height: 120px;
+    padding: 0.5em;
+    border: 1px solid #999;
+    border-radius: 0.3em;
+    resize: vertical;
+}
+
+.post-form textarea:focus {
+    outline: 2px solid #1f4e79;
+}
+
+.post-form input[type="file"]::file-selector-button {
+    background-color: #777;
+    color: white;
+    border: 1px solid #555;
+    padding: 0.3em 0.8em;
+    cursor: pointer;
+}
+
+.field ~ .field {
+    align-items: center;
+}
+
+.post-form button {
+    align-self: center;
+    background-color: #1f4e79;
+    color: white;
+    border: none;
+    padding: 0.5em 1.2em;
+    cursor: pointer;
+}
+
+.post-form button:hover {
+    background-color: #2d6aa8;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .container {
+        margin: 0.5em;
+        padding: 5px 10px;
+    }
+
+    .post-form > .field {
+        flex-direction: column;
+    }
+
+    .post-form label {
+        flex: none;
+        text-align: left;
+    }
+
+    .post-form label + textarea,
+    .post-form label + input {
+        width: 100%;
+    }
+}
