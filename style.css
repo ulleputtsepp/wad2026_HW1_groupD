@@ -256,6 +256,10 @@ p .p1 {
         margin: 10px;
     }
 
+    section {
+        flex-direction: column;
+    }
+
     /* home */
     .container {
         margin: 0.5em;
