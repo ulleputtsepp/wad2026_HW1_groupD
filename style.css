@@ -33,7 +33,8 @@ header {
     /*vertical centering*/
 }
 
-nav a, .avatar {
+nav a,
+.avatar {
     padding: 8px 12px;
     margin: 20px;
     font-size: large;
@@ -249,9 +250,11 @@ p .p1 {
 
     /* header */
 
-    nav a, .avatar {
-    margin: 10px;
-}
+    nav a,
+    .avatar {
+        padding: 4px 4px;
+        margin: 10px;
+    }
 
     /* home */
     .container {
