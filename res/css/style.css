@@ -23,7 +23,7 @@
 
 header {
     flex: 0 0 50px;
-    background-color: #ccc;
+    background-color: #fff0db;
     border-radius: 1em;
 
     display: flex;
@@ -70,7 +70,7 @@ section {
 
 .col-left {
     flex: 1;
-    background-color: #ccc;
+    background-color: #fff0db;
     border-radius: 1em;
 }
 
@@ -84,7 +84,7 @@ section {
 }
 
 .post {
-    background-color: #ccc;
+    background-color: #fff0db;
     padding: 1em;
     border-radius: 0.5em;
 }
@@ -114,7 +114,7 @@ img {
 
 .col-right {
     flex: 1;
-    background-color: #ccc;
+    background-color: #fff0db;
     border-radius: 1em;
 }
 
@@ -227,7 +227,7 @@ form {
     padding: 2.5em;
     justify-content: center;
     align-items: center;
-    background-color: #ccc;
+    background-color: #fff0db;
     border-radius: 1em;
     display: flex;
     flex-direction: column;
