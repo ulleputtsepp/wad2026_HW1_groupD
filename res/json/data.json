@@ -1,0 +1,82 @@
+[
+    {
+        "postId": 1,
+        "userName": "Emma",
+        "date": "21-05-2025",
+        "imgName": null,
+        "title": "Diskmati KT",
+        "body": "Kas keegi Diskmati viimase kontrolltöö teemasid oskab?"
+    },
+    {
+        "postId": 2,
+        "userName": "Emma",
+        "date": "04-05-2025",
+        "imgName": "ex2.jpg",
+        "title": "Kevadine botaanikaaed",
+        "body": ""
+    },
+    {
+        "postId": 3,
+        "userName": "Tambet",
+        "date": "20-12-2024",
+        "imgName": null,
+        "title": "Talvevaheaja plaanid",
+        "body": "Võiks kõik kursusega kokku saada ja matkarajale minna talvevaheajal."
+    },
+    {
+        "postId": 4,
+        "userName": "Victoria",
+        "date": "20-10-2024",
+        "imgName": "ex5.jpg",
+        "title": "Halloweeni istumine",
+        "body": "Hei kursakad! Korraldame 29. oktoobril kell 20 Halloweeni istumise. Kõige parem kostüüm saab auhinna!"
+    },
+    {
+        "postId": 5,
+        "userName": "Siim",
+        "date": "30-09-2024",
+        "imgName": "ex3.jpg",
+        "title": "Meie uus pereliige",
+        "body": "Eile võtsime perega loomade varjupaigast väikese kiisupoja. Jagage enda koduloomadest ka pilte!"
+    },
+    {
+        "postId": 6,
+        "userName": "Emma",
+        "date": "13-08-2024",
+        "imgName": "ex4.jpg",
+        "title": "Tulbid",
+        "body": "Minu vanaema kasvatatud tulbid."
+    },
+    {
+        "postId": 7,
+        "userName": "Emma",
+        "date": "02-01-2024",
+        "imgName": null,
+        "title": "KM1",
+        "body": "Läheks sessi ajal eksamiks koos kordama. Võtke minuga ühendust, kes on huvitatud kärgedes õppimisest."
+    },
+    {
+        "postId": 8,
+        "userName": "Emma",
+        "date": "23-12-2023",
+        "imgName": "ex0.jpg",
+        "title": "Talvine Tartu",
+        "body": "Käisin raekoja platsi kuuske vaatamas."
+    },
+    {
+        "postId": 9,
+        "userName": "Taavi",
+        "date": "23-11-2023",
+        "imgName": null,
+        "title": "Aidake!",
+        "body": "Kus meil tänane WAD tund toimub? Klassinumbrit pole tunniplaani märgitud."
+    },
+    {
+        "postId": 10,
+        "userName": "Jaanus",
+        "date": "17-06-2023",
+        "imgName": "ex1.jpg",
+        "title": "Aerofoto Tartu kaarsillast",
+        "body": "Täna oli toimekas päev, nimelt käisin drooniga pilte tegemas Tartust. Kõige parem pilt minuarust tuli kaarsillast, mida otsustasin teiega jagada."
+    }
+]
