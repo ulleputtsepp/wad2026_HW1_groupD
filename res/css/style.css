@@ -1,3 +1,10 @@
+/* variables */
+:root {
+  --main-box-color: #EDE8D0;
+  --main-bg-color: #darkgrey;
+
+}
+
 /* main */
 
 * {
@@ -23,7 +30,7 @@
 
 header {
     flex: 0 0 50px;
-    background-color: #fff0db;
+    background-color: var(--main-box-color);
     border-radius: 1em;
 
     display: flex;
@@ -70,13 +77,13 @@ section {
 
 .col-left {
     flex: 1;
-    background-color: #fff0db;
+    background-color: var(--main-box-color);
     border-radius: 1em;
 }
 
 .col-mid {
     flex: 2;
-    background-color: #fff;
+    background-color: var(--main-bg-color);
     border-radius: 1em;
     display: flex;
     flex-direction: column;
@@ -84,7 +91,7 @@ section {
 }
 
 .post {
-    background-color: #fff0db;
+    background-color: var(--main-box-color);
     padding: 1em;
     border-radius: 0.5em;
 }
@@ -114,7 +121,7 @@ img {
 
 .col-right {
     flex: 1;
-    background-color: #fff0db;
+    background-color: var(--main-box-color);
     border-radius: 1em;
 }
 
@@ -227,7 +234,7 @@ form {
     padding: 2.5em;
     justify-content: center;
     align-items: center;
-    background-color: #fff0db;
+    background-color: var(--main-box-color);
     border-radius: 1em;
     display: flex;
     flex-direction: column;
