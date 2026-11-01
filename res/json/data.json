@@ -78,5 +78,13 @@
         "imgName": "ex1.jpg",
         "title": "Aerofoto Tartu kaarsillast",
         "body": "Täna oli toimekas päev, nimelt käisin drooniga pilte tegemas Tartust. Kõige parem pilt minuarust tuli kaarsillast, mida otsustasin teiega jagada."
+    },
+    {
+         "postId": 11,
+        "userName": "ERR",
+        "date": "01-11-2026",
+        "imgName": null,
+        "title": "Piiriülese koostöö lõpetamine",
+        "body": "Koostöö Valka ja Valga vahel lõppes, sest Valka omavalitsus on maksejõuetu"
     }
 ]
