@@ -1,5 +1,9 @@
 let posts = document.getElementById("jsonPosts");
 let container = document.getElementById("container")
+
+const profileButton = document.getElementById("profileButton");
+const profileMenu = document.getElementById("profileMenu");
+
 // fetch('https://api.npoint.io/c160f8ba38e0003ce496')
 fetch('res/json/data.json')
     .then((response) => response.json())
@@ -61,3 +65,12 @@ fetch('res/json/data.json')
         footer.innerText = date;
         container.appendChild(footer);
     });
+
+profileButton.addEventListener("click", function () {
+    profileMenu.hidden = !profileMenu.hidden;
+
+    profileButton.setAttribute(
+        "aria-expanded",
+        !profileMenu.hidden
+    );
+});
