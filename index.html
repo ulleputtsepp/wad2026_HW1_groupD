@@ -20,9 +20,19 @@
                 |
                 <a href="login.html">Log In</a>
             </nav>
-            <a href="login.html" class="avatar">
-                <img src="res/img/avatar.png" alt="avatar">
-            </a>
+            <div class="profile">
+                <button class="avatar" id="profileButton" type="button"
+                        aria-expanded="false" aria-controls="profileMenu">
+                    <img src="res/img/avatar.png" alt="avatar">
+                </button>
+
+                <div class="profile-menu" id="profileMenu" hidden>
+                    <p class="profile-name">John Doe</p>
+                    <p class="profile-email">john.doe@ut.ee</p>
+                    <hr>
+                    <a href="login.html">Logout</a>
+                </div>
+            </div>
         </header>
 
         <section>
