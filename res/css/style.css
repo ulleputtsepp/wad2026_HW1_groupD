@@ -1,14 +1,14 @@
 /* variables */
 :root {
-  --main-box-color: #EDE8D0;
-  --main-bg-color: #555;
+    --main-box-color: #EDE8D0;
+    --main-bg-color: #555;
 
 }
 
 /* main */
 body {
-  background-color: var(--main-bg-color);
-  }
+    background-color: var(--main-bg-color);
+}
 
 * {
     margin: 0;
@@ -197,7 +197,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 2em 0;
 }
 
 .post-form {
@@ -272,7 +271,7 @@ main {
 
 .col-left-login {
     flex: 1;
-    background-color: white;
+    background-color: var(--main-box-color);
     border-radius: 1em;
 }
 
@@ -320,7 +319,7 @@ p .p1 {
 
 .col-right-login {
     flex: 1;
-    background-color: white;
+    background-color: var(--main-box-color);
     border-radius: 1em;
 }
 
@@ -364,11 +363,11 @@ p .p1 {
     .post-form label+input {
         width: 100%;
     }
-    
+
     /* login page */
     /* login page */
     .col-left-login,
     .col-right-login {
-      display: none;
+        display: none;
     }
 }

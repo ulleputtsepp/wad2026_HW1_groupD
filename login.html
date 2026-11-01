@@ -10,17 +10,34 @@
 </head>
 
 <body>
-  
+
     <div class="container">
         <header>
             <nav>
                 <a href="index.html">Home</a>
+                |
+                <a href="addPost.html">Add Post</a>
+                |
+                <a href="login.html">Log In</a>
             </nav>
+            <div class="profile">
+                <button class="avatar" id="profileButton" type="button" aria-expanded="false"
+                    aria-controls="profileMenu">
+                    <img src="res/img/avatar.png" alt="avatar">
+                </button>
+
+                <div class="profile-menu" id="profileMenu" hidden>
+                    <p class="profile-name">John Doe</p>
+                    <p class="profile-email">john.doe@ut.ee</p>
+                    <hr>
+                    <a href="login.html">Logout</a>
+                </div>
+            </div>
         </header>
 
         <section>
             <div class="col-left-login"></div>
-           
+
             <div class="col-mid-login">
                 <p>Welcome to PostIt</p><br>
                 <p class="p1">Create an account</p><br>
@@ -28,17 +45,17 @@
                 <p>Please log in</p>
 
                 <form action="index.html" target="_blank">
-                <div class=" email-input">
-                    <input type="email" placeholder="Email" required>
-                </div>
+                    <div class=" email-input">
+                        <input type="email" placeholder="Email" required>
+                    </div>
 
-                <div class="password-input">
-                    <input type="password" id="password" placeholder="Password" required>
-                </div>
-            
-                <div class="login-btn-wrapper">
-                    <button type="submit" class="login-btn">Log in</button>
-                </div> 
+                    <div class="password-input">
+                        <input type="password" id="password" placeholder="Password" required>
+                    </div>
+
+                    <div class="login-btn-wrapper">
+                        <button type="submit" class="login-btn">Log in</button>
+                    </div>
                 </form>
 
                 <div>
@@ -50,5 +67,6 @@
             <div class="col-right-login"></div>
         </section>
 
-    </body>
+</body>
+
 </html>
