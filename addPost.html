@@ -3,25 +3,27 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add Post</title>
     <link rel="stylesheet" href="res/css/style.css">
 </head>
 
 <body>
-    <div class="container" >
+
+    <div class="container">
         <header>
             <nav>
                 <a href="index.html">Home</a>
                 |
                 <a href="addPost.html">Add Post</a>
-                |
-                <a href="login.html">Log In</a>
+                
+                <a href="login.html" hidden>Log In</a>
             </nav>
-            <div class="profile" hidden>
-                <button class="avatar" id="profileButton" type="button" aria-expanded="false"
-                    aria-controls="profileMenu">
-                    <img src="res/img/avatar.png" alt="avatar">
+            <div class="profile">
+                <button class="avatar" id="profileButton" type="button"
+                    aria-expanded="false" aria-controls="profileMenu">
+                    <img src="res/img/avatar.png" alt="avatar" >
                 </button>
 
                 <div class="profile-menu" id="profileMenu" hidden>
@@ -49,6 +51,7 @@
             </form>
         </main>
     </div>
+<script type="text/javascript" src="src/js/script.js"></script>
 </body>
 
 </html>
