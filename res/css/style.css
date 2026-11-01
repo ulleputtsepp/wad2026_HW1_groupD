@@ -29,6 +29,56 @@ body {
     padding: 10px 20px;
 }
 
+.profile {
+    position: relative;
+}
+
+.avatar {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.profile-menu {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 200px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 10;
+}
+
+.profile-menu p {
+    margin: 5px 0;
+}
+
+.profile-name {
+    font-weight: bold;
+}
+
+.profile-email {
+    font-size: 13px;
+    color: gray;
+}
+
+.profile-menu a {
+    color: black;
+    text-decoration: none;
+}
+
+.profile-menu a:hover {
+    text-decoration: underline;
+}
+
+.profile-menu[hidden] {
+    display: none;
+}
+
 /* header */
 
 header {
