@@ -364,4 +364,11 @@ p .p1 {
     .post-form label+input {
         width: 100%;
     }
+    
+    /* login page */
+    /* login page */
+    .col-left-login,
+    .col-right-login {
+      display: none;
+    }
 }
